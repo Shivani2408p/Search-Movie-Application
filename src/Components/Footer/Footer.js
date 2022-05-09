@@ -20,7 +20,7 @@ function Footer() {
     setData(value);
   };
   useEffect(() => {
-    getApi();
+    getApi("2022");
   }, []);
   return (
     <div className="FooterMain">
