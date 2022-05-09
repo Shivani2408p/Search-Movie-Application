@@ -1,0 +1,83 @@
+.Navbar{
+    background-color: "#4f1e89";
+    display: "flex";
+    justify-content: "space-between";
+    padding: "20px",
+}
+.details{
+    color: white;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.Container{
+    background-color: #6a36a2;
+}
+.homebtn{
+    color: white;
+    text-decoration: none;
+}
+.posterimage{
+    width: 90%;
+}
+.content{
+    color: white;
+    font-family: serif;
+}
+.star-active{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: yellow;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+}
+.star-disabled{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+}
+.topcontent{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 2%;
+}
+.Ratingcontent{
+    width: 100%;
+}
+.detalisdata{
+    padding: 5%;
+    background-image: url("https://us.123rf.com/450wm/ints/ints1608/ints160800001/61101064-cinema-or-photo-film-strip-with-lens-flare-on-dark-background.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px 150px;
+}
+.span{
+    margin-left: 10px;
+}

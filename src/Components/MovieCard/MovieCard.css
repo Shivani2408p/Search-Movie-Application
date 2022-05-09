@@ -1,0 +1,33 @@
+.MainContainer{
+    background-color: #6a36a2;
+}
+.Navbar{
+    background-color:#4f1e89;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.btn{
+    color: white;
+}
+.data{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.heading{
+    color: white;
+}
+.NFMovie{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 80vh;
+    margin: 20px;
+    border-radius: 20px;
+}
