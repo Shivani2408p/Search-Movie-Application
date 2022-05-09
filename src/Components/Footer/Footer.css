@@ -1,0 +1,17 @@
+.FooterMain{
+    background-color: #4f1e89;
+    padding: 1%;
+    text-align: center;
+    margin-top:50px;
+}
+.Footer{
+    background-color: #4f1e89;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cardbody{
+    color: white;
+}

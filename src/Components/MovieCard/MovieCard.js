@@ -15,7 +15,6 @@ function MovieCard() {
       {}
     );
     setData(result.data.Search);
-    console.log(result.data.Search);
   };
   useEffect(() => {
     getApi("batman");

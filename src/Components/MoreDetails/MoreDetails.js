@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { Navbar, Button, Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../Components/MoreDetails/MoreDetails.css";
+import Footer from "../Footer/Footer";
 
 function MoreDetails() {
   const params = useParams();
@@ -14,13 +15,10 @@ function MoreDetails() {
       {}
     );
     setData(result.data);
-    console.log("result.data", result.data);
   };
   useEffect(() => {
     getMovieDetails(params.id);
   }, []);
-  console.log("dataPoster", data.Poster);
-  console.log("dataActor", data.Actor);
 
   const getRatting = (value, type) => {
     let actlVal;
@@ -114,6 +112,7 @@ function MoreDetails() {
           </Col>
         </Row>
       </Container>
+      <Footer/>
     </div>
   );
 }
