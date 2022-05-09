@@ -8,7 +8,7 @@ function Footer() {
   const [data, setData] = useState([]);
   const getApi = async (name) => {
     const result = await axios.get(
-      `http://www.omdbapi.com/?apikey=2b886107&s=${name}`,
+      `http://www.omdbapi.com/?apikey=2b886107&s=${name}&y=2022`,
       {}
     );
     var value = result.data.Search;
